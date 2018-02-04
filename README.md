@@ -13,10 +13,73 @@ ___
 
 # what  ❓ ❕
 ## User Story 👉
-[Protofile](https://projects.invisionapp.com/d/main#/console/13229564/276766587/preview)
-- The website contain :
-Home  - Blogs - Our Works - How We Work - About - Our Partners - Contact  
 
+[Protofile](https://projects.invisionapp.com/d/main#/console/13229564/276766587/preview)
+
+> As a production companies I want to :
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+
+
+> As Admmin I want to :
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ]
+- [ ]
+
+
+
+___
+
+
+# How 🙋
+## Getting Started  
+
+### Prerequisites  
+
+#### Use this project in local machine 💻
+
+###### * Clone the repo:  
+
+SSH  🔐
+
+```
+
+git clone git@github.com:facg3/Hawas-Studio.git
+
+```
+
+https 🔐
+
+```
+
+git clone  https://github.com/facg3/Hawas-Studio.git
+
+```
+
+###### * Install the ` node.js` devDependencies:  
+
+```  
+
+ npm install  
+```
+
+###### * Run the Server with `Nodemon`:  
+```
+
+ npm run start:watch   
+ ```
+
+###### * Run the (module) `Tests`
+```   
+
+ npm run test  
+
+```
 
 # Team  Developer 🚺 🚹 🚺 
 
