@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-    "entry": "./src/frontEnd/index.js",
+    "entry": "./src/client/index.js",
     "output": {
         "filename": "bundle.js",
         "path": path.resolve("public/")
@@ -33,7 +33,7 @@ module.exports = {
                         "loader": "file-loader",
                         "options": {
                             "name": "[path][name].[ext]",
-                            "context": path.resolve("src/frontEnd/assets/")
+                            "context": path.resolve("src/client/assets/")
                         }
                     }
                 ]
