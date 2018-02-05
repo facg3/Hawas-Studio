@@ -5,7 +5,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "",
-    "start:build": "webpack -w"
+    "clean": "rimraf build",
+    "prod:build": "clean && webpack -p"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "eslint-plugin-react": "^7.6.1",
     "file-loader": "^1.1.6",
     "nodemon": "^1.14.12",
+    "rimraf": "^2.6.2",
     "style-loader": "^0.20.1",
     "webpack": "^3.10.0"
   },
