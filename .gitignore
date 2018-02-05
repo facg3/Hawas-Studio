@@ -4,4 +4,5 @@ package-lock.json
 node_modules
 # REPL History
 bundle.js
+bundle.js.map
 .env
