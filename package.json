@@ -5,8 +5,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "",
-    "clean": "rimraf build",
-    "prod:build": "clean && webpack -p"
+    "clean": "rimraf public/bundle.js",
+    "prod:build": "npm run clean && webpack -p"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
     "babel-eslint": "^8.2.1",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.9",
     "eslint": "^4.17.0",
     "eslint-config-airbnb": "^16.1.0",
